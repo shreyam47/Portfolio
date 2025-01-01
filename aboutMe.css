@@ -1,0 +1,14 @@
+.navigation { /* style bar */
+    background-color: #BEB886;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation a { /*styling links */
+    font-size: 25px;
+    padding: 10px 16px;
+    color: #2D2422;
+    font-family: "Belgrano", serif;
+    text-decoration: none;
+    
+}
