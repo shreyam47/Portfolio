@@ -29,14 +29,14 @@ h1 {
     font-family: "Bigshot One", serif;
 }
 
-.description {
+.header {
     display: flex;
     padding: 100px 20px;
     justify-content: space-evenly;
     background-color: #BEB886;
 }
 
-.description .text {
+.header .description {
     display: flex;
     flex-direction: column;
     justify-content: center;
