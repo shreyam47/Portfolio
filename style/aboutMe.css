@@ -2,10 +2,11 @@ body {
     margin: 0;
     font-family: "Belgrano", serif;
     background-color: #FFFDF1;
+    color: #2D2422;
 }
 
 .navigation { /* style bar */
-    background-color: #BEB886;
+    background-color: #777653;
     display: flex;
     justify-content: flex-end;
     margin: 0%;
@@ -20,14 +21,33 @@ body {
 }
 
 p {
-    font-size: 15px;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: "Bigshot One", serif;
 }
 
 .description {
     display: flex;
-    margin: 10px 20px;
+    padding: 100px 20px;
+    justify-content: space-evenly;
+    background-color: #BEB886;
 }
 
-/* #aboutMeParagraph {
-    margin-right: 100px;
-} */
+.description .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#profileImage {
+    width: 30%;
+    height: 30%;
+    border-radius: 5%;
+    border: 10px solid #777653;
+    min-width: 400px;
+    min-height: 400px;
+}
+
