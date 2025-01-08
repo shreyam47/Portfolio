@@ -18,6 +18,10 @@ h {
     font-family: "Bigshot One", serif;
 }
 
+ul {
+    list-style-image: url('/images/bullet.png');
+}
+
 /* NAVIGATION */
 .navigation {
     background-color: #BEB886;
@@ -61,6 +65,30 @@ h {
     min-height: 400px;
     margin-left: 30px;
 }
+
+/* SECTION 2 */
+.section2 {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    width:250px;
+    height:200px;
+    background:#BEB886;
+    margin: 0px 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.grid h {
+    text-align: center;
+    font-size: 25px;
+}
+
 
 /* FOOTER */
 .footer {
